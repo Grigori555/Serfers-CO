@@ -150,12 +150,45 @@ transition: background 1s linear;
 /*  intro */
 
 .intro{
+    
+    display:flex;
+    flex-direction: column;
     height:1335px;
+    /* height: 100vh; */
     background: url("../images/intro/intro.jpg");
     background-repeat:no-repeat;
     background-position:top;
     background-size: 100% 50%;
+    position: relative;
     
+    
+}
+
+.intro__inner{
+    
+    width: 100%;
+    max-width: 730px;
+    margin:0 auto;
+    margin-top:150px;
+    text-align: center;
+
+}
+
+.intro__title{
+    font-family: 'Playfair Display', serif;
+    color:#000000;
+    font-style: italic;
+    font-weight: normal;
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.intro__suptitle{
+    font-family: 'Playfair Display', serif;
+    color:#ffffff;
+    font-style: italic;
+    font-size:24px;
+    font-weight: normal;
 }
 
 
