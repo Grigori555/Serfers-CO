@@ -240,11 +240,11 @@ transition: background 1s linear;
 
 
 .slider-serfboard__img{
-    width:60%;
+    width:50%;
 }
 
 .serfboard__description{
-    width:40%;
+    width:50%;
 }
 .choose-main-serboard__img{
     position:absolute;
@@ -268,7 +268,7 @@ transition: background 1s linear;
     width:70px;
     top:158px;
     position: absolute;
-    left:458px;
+    left:445px;
     
     
 }
@@ -276,7 +276,50 @@ transition: background 1s linear;
 .slider-serfboard__img--views img{
     margin-bottom:5px;
     border:2px solid #cccccc;
+    cursor:pointer;
 }
+
+.slider-serfboard__img--views .active{
+   
+    border:3px solid #00b0ff;
+}
+
+
+.serfboard__description{
+    margin:45px 60px 55px 180px; /* послед 50 */
+}
+
+.serfboard__title{
+    
+    
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 1.4;
+   
+}
+
+.serfboard__stars{
+    margin-top:10px;
+}
+
+.fa-star{
+    cursor:pointer;
+}
+
+
+.fas.fa-star{
+color: #f2d800;
+}
+
+
+.far .fa-star{
+
+}
+
+
+
 
 
 
