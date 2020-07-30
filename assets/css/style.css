@@ -156,7 +156,7 @@ transition: background 1s linear;
     background: url("../images/intro/intro.jpg");
     background-repeat:no-repeat;
     background-position:top;
-    background-size: 100% 50%;
+    background-size: 100% 600px;
     
     
     
@@ -220,6 +220,13 @@ transition: background 1s linear;
     
 }
 
+.slider__serfboard--fill{
+   position: absolute;
+   z-index:10;
+   float:left;
+ 
+}
+
 .big-slider__title{
     background-color: transparent;
     position: absolute;
@@ -241,7 +248,7 @@ transition: background 1s linear;
 
 .slider__serfboard-content{
     display: flex;
-    position:absolute;
+    position: relative;
     z-index:1000;
     
 
@@ -252,13 +259,18 @@ transition: background 1s linear;
 
 }
 
+
 .slider__item.--text{
+    position: relative;
+    z-index: 1000;
     margin-top:44px;
     min-height: 330px;
 
 }
 
 .slider__item.--img{
+    position: relative;
+    z-index: 1000;
     display:flex;
     margin-left:20px;
     margin-top:60px;
@@ -303,7 +315,7 @@ transition: background 1s linear;
 .option__item:nth-child(2) .option__text,
 .option__item:nth-child(3) .option__text
 {
-    display:none;
+    display:block;
 
 }
 
