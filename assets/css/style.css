@@ -507,6 +507,55 @@ position: absolute;
 }
 
 
+.slider__serfboard-switcher{
+    overflow: visible;
+    position: absolute;
+    top:430px;
+    right: 105px;
+    color:transparent;
+    font-size:0;
+}
+
+.serfboard-switcher.back{
+    position:relative;
+    margin:0 auto;
+    width:20px;
+    height:2px;
+    background: #ffffff;
+}
+
+.serfboard-switcher.back::before{
+    content:"";
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    width:10px;
+     height:2px;
+     transform:rotate(45deg) translateX(1px);
+     top:-5px;
+     left:10px;
+ 
+ }
+
+.serfboard-switcher.back::after{
+   content:"";
+   display: block;
+   position: absolute;
+   background: #ffffff;
+   width:10px;
+    height:2px;
+    transform:rotate(-45deg) translateX(1px);
+    top:5px;
+    left:10px;
+
+}
+
+
+      
+      
+
+
+
 
 
 
