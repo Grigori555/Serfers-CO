@@ -3,7 +3,7 @@ font-family: 'Raleway', sans-serif;
 margin:0;
 font-size:14px;
 color:#000000;
-overflow-x: hidden;
+/* overflow-x: hidden; */
 }
 
 
@@ -506,53 +506,119 @@ margin-top:2px;
 position: absolute;
 }
 
-
 .slider__serfboard-switcher{
-    overflow: visible;
+    position:relative;
+    left:1043px;
+    bottom:570px;
+    z-index:1000;
+   
+    
+}
+
+.slider__serfboard-arrows{
     position: absolute;
-    top:430px;
-    right: 105px;
+    margin-left:20px;
+    
+    z-index: 5;
+    width:75px;
+    height:35px;
+    display: flex;
+    justify-content: space-between;
+    margin-right:5px;
+    margin-bottom:10px;
+    background-color: #f2d800;
     color:transparent;
     font-size:0;
 }
-
-.serfboard-switcher.back{
-    position:relative;
-    margin:0 auto;
-    width:20px;
-    height:2px;
-    background: #ffffff;
+.back,.forward{
+    cursor: pointer;
 }
 
-.serfboard-switcher.back::before{
+.serfboard-amount__count{
+    
+    width:58px;
+    position: absolute;
+    background-color: #000000;
+    color:white;
+    top:35px;
+    padding:12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    z-index: 5;
+}
+
+
+.serfboard-switcher{
+  
+    background-color: #f7f7f7;
+    width:15px;
+    height:2px;
+    position: absolute;
+    top:50%;
+    margin:0 auto;
+    
+}
+
+.serfboard-switcher.back{
+    margin-left:12px;
+    transform: rotate(-180deg);
+    cursor:pointer;
+}
+
+.serfboard-switcher.forward{
+    right:0;
+    margin-right:12px;
+    cursor:pointer;
+}
+
+
+
+.serfboard-switcher.back::before,
+.serfboard-switcher.forward::before{
     content:"";
     display: block;
     position: absolute;
-    background: #ffffff;
-    width:10px;
+    background-color: #f7f7f7;
+    width:11px;
      height:2px;
-     transform:rotate(45deg) translateX(1px);
-     top:-5px;
-     left:10px;
+     transform:rotate(45deg);
+     top:-3px;
+     left:8px;
  
  }
 
-.serfboard-switcher.back::after{
+ .serfboard-switcher.back::before{
+    top:-3px;
+    left:7px;
+   
+ }
+ /* .serfboard-switcher.back::after{
+    top:-0px;
+    left:7px;
+} */
+
+
+ .serfboard-switcher.back::after,
+.serfboard-switcher.forward::after{
    content:"";
    display: block;
+   z-index:1000;
    position: absolute;
-   background: #ffffff;
+   background: #f7f7f7;
    width:10px;
     height:2px;
     transform:rotate(-45deg) translateX(1px);
     top:5px;
-    left:10px;
+    left:7px;
 
 }
 
 
-      
-      
+
+
+       
+
+ 
 
 
 
@@ -562,9 +628,7 @@ position: absolute;
 
 
 
-
-
-
+ 
 
 
 
