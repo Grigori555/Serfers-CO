@@ -748,19 +748,30 @@ position: absolute;
 
 }
 
-
+/* Our team */
      
 .section--ourteam{
     position: relative;
-    height: 130%;
-    min-height:645px;
-   margin-top:530px;
+    
+   margin-top:400px;
     
    
 }
 
 
-
+.team__title{
+    position: relative;
+    z-index: -10;
+     
+     text-transform: uppercase;
+     color:#f7f7f7;
+     font-family: 'Montserrat', sans-serif;
+     font-weight:700;
+     font-size:196px;
+     text-align: justify;
+     
+     margin:0 auto;
+}
 
 
 
