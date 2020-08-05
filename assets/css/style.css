@@ -624,9 +624,9 @@ position: absolute;
 }
 
 .about__title{
-    position: absolute;
+    position: relative;
    z-index: -10;
-    top:-170px;
+    top:-70px;
     text-transform: uppercase;
     color:#f7f7f7;
     font-family: 'Montserrat', sans-serif;
@@ -792,3 +792,60 @@ position: absolute;
 font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; */
+
+/*Media */
+
+ @media(max-width:1920px){
+    /* About  */
+    .about__title{
+    top:-165px;
+    }
+}
+
+
+@media(max-width:1368px){
+    /* About  */
+
+
+    
+    .about__text-container{
+
+
+    }
+    .about__title{
+    top:-70px;
+    }
+
+    .about__story{
+        font-size:16px;
+    }
+
+    .about__text-container h3{
+        font-size:14px;
+    }
+
+    .about__text{
+        width:660px;
+        padding-left:300px;
+    }
+
+    .about__video img{
+        margin-top:167px;
+        width:320px;
+
+    }
+
+
+    .about__text h3:before, .about__text h3:after{
+        left:440px;
+    }
+
+   
+        
+    
+
+    
+}
+
+
+
