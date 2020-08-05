@@ -614,8 +614,8 @@ position: absolute;
     background-image: url("../images/about-us/Photo.jpg");
     background-repeat:no-repeat;
     background-position:center;
-    background-size: 100%;
-    height: 130%;
+    background-size: cover;
+    height: 100%;
     min-height:645px;
    
     
@@ -626,7 +626,7 @@ position: absolute;
 .about__title{
     position: relative;
    z-index: -10;
-    top:-70px;
+    top:-170px;
     text-transform: uppercase;
     color:#f7f7f7;
     font-family: 'Montserrat', sans-serif;
@@ -797,9 +797,9 @@ font-family: 'Roboto Condensed', sans-serif; */
 
  @media(max-width:1920px){
     /* About  */
-    .about__title{
+    /* .about__title{
     top:-165px;
-    }
+    } */
 }
 
 
@@ -807,14 +807,8 @@ font-family: 'Roboto Condensed', sans-serif; */
     /* About  */
 
 
+   
     
-    .about__text-container{
-
-
-    }
-    .about__title{
-    top:-70px;
-    }
 
     .about__story{
         font-size:16px;
@@ -830,7 +824,7 @@ font-family: 'Roboto Condensed', sans-serif; */
     }
 
     .about__video img{
-        margin-top:167px;
+        margin-top:267px;
         width:320px;
 
     }
@@ -838,7 +832,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
     .about__text h3:before, .about__text h3:after{
         left:440px;
-    }
+    } 
 
    
         
