@@ -611,17 +611,31 @@ position: absolute;
 
 .section--about__us{
     position: relative;
-    background-image: url("../images/about-us/Photo.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size: cover;
+    
     height: 100%;
-    min-height:645px;
+    min-height:1147px;
    
     
-    margin-top:120px;
+    margin-top:180px;
     
 }
+
+.about__background{
+    background: url("../images/about-us/Photo.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:100%;
+    min-height: 1043px;
+    border:1px solid black;
+    
+}
+
+
+
+
+
+
+
 
 .about__title{
     position: relative;
@@ -638,8 +652,12 @@ position: absolute;
    
 }
 
+.about__text-container{
+  
+    min-height:740px;
+}
 .about__content{
-    position: absolute;
+    position: relative;
     display:flex;
     top:296px;
     left:0;
@@ -653,6 +671,7 @@ position: absolute;
     padding-right:110px;
     width: 100%;
     max-width:945px;
+    
     background-color: #ffffff;
     margin-right: 70px;
     
