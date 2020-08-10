@@ -652,119 +652,77 @@ position: absolute;
    
 }
 
-.about__text-container{
-  
-    min-height:740px;
-}
 .about__content{
-    position: relative;
     display:flex;
-    top:296px;
-    left:0;
-    padding-bottom:180px;
-    margin-right:387px;
+    margin-right:400px;
+    
 }
 
 .about__text{
-    padding-left:475px;
-    padding-top:97px;
-    padding-right:110px;
-    width: 100%;
-    max-width:945px;
-    
-    background-color: #ffffff;
-    margin-right: 70px;
-    
-    
+    position: relative;
+ background-color:#ffffff;
+ left:0;
+ bottom:0; 
+ width:100%;
+ max-width:945px;
+ height: 100%;
+ min-height:745px;
+ margin-right:70px;
+ padding-left:475px;
+ padding-right: 130px;
+ padding-top:100px;
+ padding-bottom:222px;
+
+}
+.about__story{
+width:100%;
+min-width: 345px;
+height:100%;
+min-height:367px;
+font-family: 'Playfair Display', serif;
+font-style:italic;
+font-size:22px;
+line-height: 1.8;
+color:#000000;
 }
 
-
-
-
-.about__text h3{
+.about-story__title{
     font-family: 'Montserrat', sans-serif;
     font-size:18px;
-    margin-bottom: 40px;
     text-transform: uppercase;
-    text-align: center;
-    color:#000000;
-    padding-left:50px;
+    margin-left:70px;
 }
-
-.about__text h3:before{
-    content:"";
-    display:block;
-    position: absolute;
-    width:15px;
-    height:2px;
-    background-color: black;
-    z-index:1000;
-    left:670px;
-    top:135px;
-    transform: rotate(45deg);
-    cursor:pointer;
-
-
-}
-
-.about__text h3:after{
-    content:"";
-    display:block;
-    position: absolute;
-    width:15px;
-    height:2px;
-    background-color: black;
-    z-index:1000;
-    left:670px;
-    top:135px;
-    transform: rotate(-45deg);
-    cursor:pointer;
-
-
-}
-
-.about__story{
-    font-family: 'Playfair Display', serif;
-    font-size:22px;
-    font-style:italic;
-    line-height: 1.6;
-    color:#000000;
-}
-
-
-
-
-
-.about__video img{
-    
-    margin-top:267px;
-    
-    width:500px;
-    box-shadow: 2px 2px 20px 3px black;
-    cursor:pointer;
-}
-
-
 
 .about__read{
-    margin-top:40px;
     font-family: 'Montserrat', sans-serif;
-    text-decoration:none;
-    font-size:14px;
+    font-size:16px;
     color:#00b0ff;
     font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    top:-60px;
+
 }
 
-
 .about__read:after{
-    position: absolute; 
-    width:80px;
-    height:3px;
     content:"";
     display:block;
-    background-color: #00b0ff;
-    margin-top:1px;
 
+    width:100%;
+    max-width:90px;
+    height:3px;
+    background-color:#00b0ff;
+}
+
+.about__video{
+    margin-top:263px;
+    cursor: pointer;
+   
+  
+}
+
+.about__video img{
+    box-shadow: 8px 4px 25px 1px  #000000;
 }
 
 /* Our team */
@@ -791,6 +749,10 @@ position: absolute;
      
      margin:0 auto;
 }
+
+
+
+
 
 
 
@@ -825,51 +787,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 /*Media */
 
- @media(max-width:1920px){
-    /* About  */
-    /* .about__title{
-    top:-165px;
-    } */
-}
 
-
-@media(max-width:1368px){
-    /* About  */
-
-
-   
-    
-
-    .about__story{
-        font-size:16px;
-    }
-
-    .about__text-container h3{
-        font-size:14px;
-    }
-
-    .about__text{
-        width:660px;
-        padding-left:300px;
-    }
-
-    .about__video img{
-        margin-top:267px;
-        width:320px;
-
-    }
-
-
-    .about__text h3:before, .about__text h3:after{
-        left:440px;
-    } 
-
-   
-        
-    
-
-    
-}
 
 
 
