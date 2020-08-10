@@ -9,6 +9,7 @@ color:#000000;
 
     h1,h2,h3,h4,h5,h6{
     margin:0;
+   
     }
 
 
@@ -423,10 +424,7 @@ transition: background 1s linear;
     
 
 background-color: #a0a0a0;
-/* position: absolute;
-top:100%;
-left:0;
-z-index:1; */
+
 }
 
 .option__text{
@@ -612,11 +610,11 @@ position: absolute;
 .section--about__us{
     position: relative;
     
-    height: 100%;
-    min-height:1147px;
+    margin-top:180px;
    
     
-    margin-top:180px;
+    
+    
     
 }
 
@@ -626,7 +624,7 @@ position: absolute;
     background-position:top;
     background-size:100%;
     min-height: 1043px;
-    border:1px solid black;
+    
     
 }
 
@@ -668,10 +666,8 @@ position: absolute;
  height: 100%;
  min-height:745px;
  margin-right:70px;
- padding-left:475px;
- padding-right: 130px;
- padding-top:100px;
- padding-bottom:222px;
+ padding:100px 130px 222px 475px;
+
 
 }
 .about__story{
@@ -728,17 +724,23 @@ color:#000000;
 /* Our team */
      
 .section--ourteam{
-    position: relative;
+  height:100%;
+  min-height:586px;
+  position: relative;
+  margin-bottom:180px;
+  
+  
+  
+  
     
-   margin-top:400px;
+   
     
    
 }
 
 
 .team__title{
-    position: relative;
-    z-index: -10;
+    
      
      text-transform: uppercase;
      color:#f7f7f7;
@@ -748,6 +750,106 @@ color:#000000;
      text-align: justify;
      
      margin:0 auto;
+     
+
+     
+}
+
+
+.team-slider{
+   
+    margin:0 auto;
+    width:1141px;
+    position: absolute;
+    top:165px;
+    
+
+}
+.team-slider__inner{
+    width:986px;
+    display:flex;
+    margin: 0 auto;
+    padding-left:30px;
+}
+.team-slider__item{
+    position: relative;
+    width:260px;
+    height:290px;
+    text-align: center;
+    margin-left:-30px;
+    background-color:white;
+    box-shadow: 8px 4px 35px -10px  #000000;
+    border-radius:1.8%;
+    }
+
+.team-slider__item.active{
+    background-color: #00b0ff;
+}
+
+.team-slider__item.active .account__name{
+   color:white;
+}
+
+.team-slider__item.active .account__id,
+.team-slider__item.active .account__location{
+    color:#b3e7ff;
+ }
+
+
+
+
+.team-slider__item:nth-child(2n){
+   
+    top:20px;
+    z-index: 1000;
+    
+    }
+
+    .team-slider__account{
+        margin-top:30px;
+        cursor: pointer;
+    }
+    
+
+.team-slider__photo{
+    border-radius: 50%;
+    margin-bottom:16px;
+    /* border:1px solid black; */
+}   
+
+
+.account__name{
+    margin-bottom:3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#33c0ff;
+}
+
+.account__id{
+    margin-bottom:40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color:#8c8c8c;
+
+}
+
+.account__id:hover{
+    text-decoration: underline;
+}
+
+.account__location{
+    color:#d9d9d9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.fa-map-marker-alt{
+    color:#d9d9d9;
+}
+
+.fa-map-marker-alt:hover{
+    color:#d9d9d9;
+    background-color: transparent;
 }
 
 
