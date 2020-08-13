@@ -12,6 +12,14 @@ color:#000000;
    
     }
 
+button{
+    padding:0;
+    border:none;
+    font:inherit;
+    color:inherit;
+    background-color: transparent;
+    }
+
 
 *,
 *::before,
@@ -1129,6 +1137,25 @@ border-radius:10%;
     margin-top:35px;
     text-align:center;
 }
+
+
+.update__posts{
+    cursor:pointer;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: #00b0ff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight: bold;
+  
+    padding:16px 30px;
+}
+
+.update__posts:hover{
+    text-decoration: underline;
+}
+
+
 
 
 
