@@ -627,14 +627,31 @@ position: absolute;
 }
 
 .about__background{
+    position: relative;
     background: url("../images/about-us/Photo.jpg");
     background-repeat:no-repeat;
     background-position:top;
     background-size:100%;
     min-height: 1043px;
-    
-    
 }
+
+
+/* Исправить фон */
+/* .about__background::after{
+    content:"";
+    display:block;
+    width: 100%;
+    height: 100%;
+    max-height: 637px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 5;
+    background-image:linear-gradient(to bottom, transparent, black);
+    background-size:100%;
+    opacity:0.6;
+
+} */
 
 
 
@@ -659,6 +676,7 @@ position: absolute;
 }
 
 .about__content{
+    position:relative;
     display:flex;
     margin-right:400px;
     
@@ -1158,9 +1176,18 @@ border-radius:10%;
 
 
 /* social-network ----------------*/
+.--move{
+margin:0 auto;
+}
+
+
+
+
 
 .social__network{
 display:flex;
+
+
 }
 
 .social-network__title h1{
@@ -1203,6 +1230,9 @@ display:flex;
 position: relative;
     width:100%;
     min-width: 620px;
+    margin-left:50px;
+    margin-right: 50px;
+   
 }
 
 .social__item.fab{
@@ -1269,8 +1299,9 @@ text-decoration: underline;
 
 
 .social__item.fab{
-    margin-top:115px;
-    margin-left:50px;
+    margin-top:155px;
+    margin-left:-50px;
+    
 }
 
 
@@ -1339,14 +1370,23 @@ margin-bottom: 33px;
     content:"";
     display:block;
     width: 100%;
-    height: 50%;
+    height: 65%;
     position: absolute;
     top:0;
     left:0;
- 
+    z-index: 100;
     background-image:linear-gradient(to top, transparent, black);
     opacity:0.7;
 
+}
+
+.serfers-fb__logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    color:#ffffff;
+    padding:15px 8px;
+    background-color:#00b0ff;
+    border:2x solid black;
 }
 
 
@@ -1386,13 +1426,84 @@ margin-bottom: 33px;
     display: flex;
     margin:0 auto;
 }
+.fb-serfers{
+    position: relative;
+    padding-left:8px;   
+    
+}
 
+.serfers-fb__logo{
+    font-size:12px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1000;
+    padding:15px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    margin:0 auto;
+    border:2px solid #ffffff;
+    text-align: center;
+    margin-top:8px;
+    cursor:pointer;
+    
+}
 .friend__img{
+    
+    z-index: 5000;
     max-width:33px;
     max-height:33px;
     cursor:pointer;
 }
 
+.serfers-fb__sign{
+    position: absolute;
+    left:68px;
+    z-index: 1000;
+    margin-top:14px;
+    color:#ffffff;
+    font-size:18px;
+   
+}
+
+
+.num-likes,.likes__words{
+    font-size:12px;
+}
+
+
+
+.fb-page__btns{
+    width:324px;
+    position:absolute;
+    display:flex;
+    justify-content: space-between;
+    top:100px;
+    z-index:1000;
+    font-size:12px;
+    color:#62656c;
+    font-weight: bold;
+    
+}
+
+.likePage,.sharePage{
+    background-color:#f6f7f9;
+    cursor:pointer;
+    padding:4px 8px;
+}
+
+.likePage:hover,.sharePage:hover,
+.likePage:hover .--likepage,
+.sharePage:hover .--sharepage{
+    text-decoration:underline;
+}
+
+.--likepage{
+  color:#3a5897;  
+}
+
+.--sharepage{
+    color:#6a7180;
+}
 
 
 /*
@@ -1437,12 +1548,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto Condensed', sans-serif; */
 
-/*Media */
 
 
 
