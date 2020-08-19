@@ -32,6 +32,7 @@ button{
     width:100%;
     max-width:1170px;
     margin:0 auto;
+    border:1px solid red;
 }
 
 
@@ -1176,9 +1177,7 @@ border-radius:10%;
 
 
 /* social-network ----------------*/
-.--move{
-margin:0 auto;
-}
+
 
 
 
@@ -1186,6 +1185,8 @@ margin:0 auto;
 
 .social__network{
 display:flex;
+justify-content: space-around;
+width:95%;
 
 
 }
@@ -1230,8 +1231,8 @@ display:flex;
 position: relative;
     width:100%;
     min-width: 620px;
-    margin-left:50px;
-    margin-right: 50px;
+    
+    
    
 }
 
@@ -1242,9 +1243,11 @@ position: relative;
 .insta__follow{
     display:flex;
     align-items: center;
-    
+    position: relative;
+    z-index:1000;
     padding-top:25px;
     padding-bottom:25px;
+    background-color:#ffffff;
     
 }
 
@@ -1300,7 +1303,7 @@ text-decoration: underline;
 
 .social__item.fab{
     margin-top:155px;
-    margin-left:-50px;
+    
     
 }
 
@@ -1506,6 +1509,45 @@ margin-bottom: 33px;
 }
 
 
+
+.nav__network{
+    position: relative;
+    right:0px;
+    bottom:225px;
+    width:1170px;
+    background-color:#000000;
+    border:1px solid black;
+    height: 225px;
+    
+
+    
+  
+ 
+    
+}
+
+.network__background{
+    margin-right:160px;
+   margin-top:60px;
+   text-align:right;
+
+
+   
+}
+.network__part{
+    display:inline-block;
+    text-align:left;
+}
+
+
+.network__part a{
+    display:block;
+    text-align:left;
+    text-decoration: none;
+    color:#ffffff;
+    margin-left:30px;
+    margin-bottom:15px;
+}
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif;
