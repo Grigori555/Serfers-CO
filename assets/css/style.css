@@ -1514,7 +1514,7 @@ margin-bottom: 33px;
     position: relative;
     right:0px;
     bottom:225px;
-    width:1170px;
+   
     background-color:#000000;
     border:1px solid black;
     height: 225px;
@@ -1527,7 +1527,7 @@ margin-bottom: 33px;
 }
 
 .network__background{
-    margin-right:160px;
+    margin-right:390px;
    margin-top:60px;
    text-align:right;
 
