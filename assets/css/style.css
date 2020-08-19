@@ -1602,6 +1602,23 @@ margin-bottom: 33px;
 .contacts__left a:hover{
     text-decoration:underline;
 } 
+.author{
+    position: relative;
+    margin-left:30px;
+}
+.author:before{
+    content:"";
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    width:5px;
+    height: 5px;
+    background-color:#4d4d4d;
+    border-radius:50%;
+    transform:translate(-18px, 5px);
+}
+
+
 
 .feedback{
     
@@ -1617,7 +1634,7 @@ margin-bottom: 33px;
 .feedback__input{
     display:flex;
     align-items: center;
-    max-width:300px;
+    width:300px;
     border-bottom:1px solid #4d4d4d;
     padding-bottom:5px;
 }
@@ -1626,10 +1643,15 @@ margin-bottom: 33px;
     background: #000000;
     border:none;
     color:#4d4d4d;
+    width:240px;
+    
     
 }
 
 #enter__email:focus{
+  
+    border-radius:5%;
+    background:#ffffff;
     outline:none;
 }
 
@@ -1646,7 +1668,7 @@ margin-bottom: 33px;
     border-radius: 50%;
     background:#00b0ff;
     padding:12px;
-    transform:translateX(103px);
+    transform:translateX(10px);
 
 }
 
@@ -1659,7 +1681,7 @@ margin-bottom: 33px;
     height: 2px;
     background-color:#ffffff;
     border-radius:15%;
-    transform:translate(101px, -13px);
+    transform:translate(8px, -13px);
 
 }
 
@@ -1687,7 +1709,11 @@ margin-bottom: 33px;
 
 
 
-
+.feed-envelope{
+  color:#4d4d4d;
+    font-size:20px; 
+   margin-right: 5px;
+}
 
 
 
