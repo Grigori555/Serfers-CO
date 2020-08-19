@@ -577,7 +577,7 @@
                     </div>
                 </div>
                 <div class="feedback">
-                    <form class="feedback__subscribe" action="" method="POST">
+                    <form class="feedback__subscribe" action="" method="POST" onsubmit="return false;">
                         <div class="feedback__label">
                             <label  for="enter__email">Subscribe to our newsletter</label>
                         </div>
@@ -587,7 +587,8 @@
                                 <input  id="enter__email" type="email" placeholder="Your e-mail">
                             </div>
                             <div class="feedback__submit">
-                                <input  type="submit" class="type">
+                                <input  class="feedback__sent" type="submit" class="type">
+                                <div class="feedback-submit__arrow"></div>
                             </div>
                         </div>
                        
