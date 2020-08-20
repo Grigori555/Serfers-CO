@@ -1227,7 +1227,7 @@ width:95%;
 }
 
 .insta-img__item{
-    cursor: pointer;
+    
     position: relative;
     
 
@@ -1243,20 +1243,23 @@ opacity: 1;
 transition:opacity 1.5s linear;
 }
 
+.insta-img__item:hover .fa-servicestack{
+    opacity: 1;
+    transition:opacity 1.5s linear;
+    }
+
 .insta-img__item{
     background: linear-gradient(to left, #11de93, #0e7ad6);
    
 }
 
-.insta__photo{
-    display:block;
-    
-}
 
 
-.insta-text .insta-see{
+
+.insta-text .insta-see,
+.insta-text .fa-servicestack{
     color:white;
-    text-transform: uppercase;
+   
     font-weight: 700;
     font-size: 18px;
     text-align:center;
@@ -1270,6 +1273,22 @@ transition:opacity 1.5s linear;
     transition: opacity .2s linear;
 }
 
+.insta-see{
+    text-decoration:none;
+}
+
+.insta-see:hover{
+    text-decoration:underline;
+}
+
+
+.insta-text .insta-see{
+    left:10px;
+}
+
+.insta-text .fa-servicestack{
+    left:-50px;
+}
 
 
 
@@ -1468,6 +1487,15 @@ margin-bottom: 33px;
     margin-bottom:8px;
     font-size:12px;
     color:#4b4f56;
+}
+
+.show__friends-like{
+    text-decoration: none;
+    color:#4b4f56;
+}
+
+.show__friends-like:hover{
+    text-decoration: underline;
 }
 
 .friends__imgs{
