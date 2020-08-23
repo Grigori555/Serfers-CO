@@ -34,7 +34,16 @@ button{
     /*1170*/
     margin:0 auto;
     padding:15px;
+    border:1px solid red;
     
+}
+
+.page{
+    overflow-x:hidden;
+}
+
+section{
+    border:1px solid orange;
 }
 
 
@@ -163,7 +172,7 @@ transition: background 1s linear;
 /*  intro */
 
 .intro{
-    overflow: hidden;
+    
 
     background: url("../images/intro/intro.jpg");
     background-repeat:no-repeat;
@@ -1808,6 +1817,15 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /* ширина контейнера*/
 /* Laptop*/
+
+@media(max-width:1920px){
+    /* About  */
+    .about__text{
+    padding:100px 90px 220px 275px;
+    }
+}
+
+
 @media(max-width:1230px){
 
     /* header */
