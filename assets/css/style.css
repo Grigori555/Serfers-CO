@@ -27,6 +27,9 @@ button{
     box-sizing:border-box;
 }
 
+*{
+    border:1px solid pink;
+}
 
 .container{
     width:100%;
@@ -725,13 +728,15 @@ color:#000000;
     font-size:18px;
     text-transform: uppercase;
     margin-left:70px;
+    width:256px;
 }
 
 .about-close{
    position: relative;
-   left:50%;
+  
    margin:25px auto;
    cursor: pointer;
+   width:13px;
 
 }
 .about-close:after,
