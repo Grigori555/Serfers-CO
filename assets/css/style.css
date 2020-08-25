@@ -27,9 +27,7 @@ button{
     box-sizing:border-box;
 }
 
-*{
-    border:1px solid pink;
-}
+
 
 .container{
     width:100%;
@@ -37,7 +35,7 @@ button{
     /*1170*/
     margin:0 auto;
     padding:15px;
-    border:1px solid red;
+  
     
 }
 
@@ -45,9 +43,7 @@ button{
     overflow-x:hidden;
 }
 
-section{
-    border:1px solid orange;
-}
+
 
 
 /*  Header  */
@@ -518,6 +514,7 @@ position: absolute;
 }
 
 .slider__serfboard-switcher{
+    width:100px;
     position:relative;
     left:1043px;
     bottom:570px;
@@ -1083,13 +1080,7 @@ border-radius:10%;
 
 
 
-.update__close{
-    position: relative;
-    left:50%;
-    margin:25px auto;
-    cursor: pointer;
- 
- }
+
  .update__close:after,
  .update__close:before{
  
