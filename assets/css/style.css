@@ -610,6 +610,7 @@ position: absolute;
 
 
 
+
 .serfboard-switcher.back::before,
 .serfboard-switcher.forward::before{
     content:"";
@@ -648,7 +649,29 @@ position: absolute;
     top:5px;
     left:7px;
 
+
+
+
 }
+.arrow__wrapper{
+    width:50%;
+   
+    
+    position: relative;
+}
+
+.arrow__wrapper:hover{
+    background-color:#00d2ff;
+    transition: background-color .3s linear;
+    border-radius:50%;
+}
+
+.arrow__wrapper:active{
+    background-color:red;
+    border-radius:50%;
+    
+}
+
 
 
 /* About us */
@@ -2017,37 +2040,66 @@ font-family: 'Roboto Condensed', sans-serif;
 @media(max-width:770px){
     /* Intro*/
     .intro__title{
-        font-size:25px;
+        font-size:28px;
+        margin-bottom:7px;
     }
     .intro__suptitle{
-        font-size:15px;
+        font-size:20px;
     }
 
     .intro__inner{
-        margin-top:80px;
+        margin-top:60px;
     }
 
-    .intro__suptitle{
-        font-size:12px;
-        margin-top:-15px;
+    
+
+   
+
+
+    /*  Header*/
+
+    .header__inner{
+        padding-top:10px;
+        padding-bottom:0px;
     }
 
-    .intro__title{
-        font-size:17px;
+    .header__logo{
+        font-size:25px;
     }
-    /*  Nav*/
+
+
+    /* Nav*/
+
+    .nav__contacts{
+        font-size:10px;
+    }
  
     /*   Slider__wrapper*/
+    
     .slider__wrapper{
-        max-width: 500px;
+        max-width: 490px;
+       
     }
+
+
+    .slider__serfboard{
+        min-height: 500px;
+    }
+
 
     .allserf__boards{
         margin-top:-40px;
     }
     .views__img{
-        grid-template-columns:1fr;
+        grid-template-columns:1fr 1fr;
         margin: 0 auto;
+        max-width: 65px;
+        margin-right:70px;
+        
+    }
+
+    .views__img-item{
+        width:80%;
     }
 
     .big__img{
@@ -2057,95 +2109,99 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .serf__amount{
         font-size:14px;
+        
+    }
+
+    .sliderserfboard__title {
+        font-size:8px;
+    }
+
+    .options{
+        position: absolute;
+        
+         margin-top:120px;
     }
 
 
-    
 
-    
-}  
-
-/*mobile phones*/
-@media(max-width:575px){
-    /* Intro*/
-    .intro__title{
-        font-size:15px;
-    }
-    .intro__suptitle{
-        font-size:13px;
-    }
-
-
-    /*   Slider__wrapper*/
-    .slider__wrapper{
-        max-width: 460px;
-    }
-
-    .serf__amount{
-        font-size:12px;
-    }
-    .views__img{
-        width:35px;
-        grid-template-columns: 1fr 1fr;
-        margin-left:-10px;
-    }
-
-    .main__img{
-        margin-left:-20px;
-    }
-    .views__img-item{
-       
-        width:30px;
-    }
-
-    .do__order-serf{
-        margin-bottom:60px;
-    }
-
-
-    .slider__item.--img{
-        max-height: 70px;
-    } 
-
-    .option__titles{
-        width:50px;
-    }
 
     .option__items{
-        margin-left:-105px;
+        
+        width:430px;
+        position: relative;
+        left:-100px;
+        border-radius: 5%;
+        
     }
 
     .option__item{
-        width:350px;
+        max-height: 150px;
+        overflow: scroll;
+        
+        
+      
     }
 
-    .sliderserfboard__title{
-        font-size: 7px;
+    .option__item:active{
+        background-color:cyan;
+    }
+    
+
+    .option-title__item.active:after{
+        margin-top:9px;
+        z-index:1000;
+        background-color:#000000;
     }
 
-    .slider__item.--text{
-        margin-top:100px;
-    }
-    .sliderserfboard__title{
-        margin-bottom:70px;
+    .option__items::before{
+        margin-bottom:0;
     }
 
-    .option__items:before{
-        width:160%;
+
+    .background-serf__order{
+        transform:translate(5px,-120px);
+    }
+
+    .btn__do-order{
+        padding:3px 3px;
     }
 
 
     .btn__do-order a{
         padding:7px 15px;
     }
-    .option__titles{
-        margin-left:-30px;
+
+    .do__order-serf{
+        position: relative;
+        top:30px;
+        margin-bottom: 65px;
+        font-size:12px;
+    }
+    
+    .allboards{
+        position: relative;
+        font-size:12px;
+        top:265px;
+       text-align: center;
+    }
+
+    .allboards:after{
+        width:100px;
+    }
+    
+    
+    
+}  
+
+/*mobile phones*/
+@media(max-width:575px){
+    /*  Intro*/
+    .intro__inner{
+        margin-top:30px;
     }
 
 
-    .header__logo{
-        font-size:26px;
-    }
+    /*    */
 }  
 
 
