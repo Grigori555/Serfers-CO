@@ -2246,11 +2246,16 @@ font-family: 'Roboto Condensed', sans-serif;
     min-height:700px;
 }
 
-    
+.btn__do-order{
+    padding:2px;
+}
     .btn__do-order a{
         position: relative;
-        top:60px;
-        right: -90px;
+        top:120px;
+        right: -60px;
+        font-size:10px;
+        z-index: 1000;
+
     }
     
     .serf__amount{
@@ -2270,6 +2275,10 @@ font-family: 'Roboto Condensed', sans-serif;
        left:-70px;
         display:block;
     }
+    .sliderserfboard__title {
+        font-size:6px;
+    }
+
 
 
     .big__img{
@@ -2280,7 +2289,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .main__img{
-        width:100px;
+        width:80px;
         margin:0 auto;
         position: absolute;
         left:20px;
@@ -2289,7 +2298,8 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .views__img{
         position: relative;
-        left:270px;
+        left:120px;
+        top:290px;
         
     }
 
@@ -2312,6 +2322,15 @@ font-family: 'Roboto Condensed', sans-serif;
         top:200px;
         left:-60px;
         
+    }
+
+    .option__text{
+        width:80%;
+        margin:0 auto;
+        position: relative;
+        left:-30px;
+        padding-top:20px;
+        font-size: 14px;
     }
 
     .option-title__item{
