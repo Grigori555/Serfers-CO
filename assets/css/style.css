@@ -1972,7 +1972,7 @@ font-family: 'Roboto Condensed', sans-serif;
     .intro{
        
         background-position:top;
-        background-size: 100%;
+        background-size: 150%;
         min-height: 700px;
     } 
     .intro__title{
@@ -2188,6 +2188,13 @@ font-family: 'Roboto Condensed', sans-serif;
     .allboards:after{
         width:100px;
     }
+
+
+    /* about us*/
+
+    .section--about__us{
+        margin-top:80px;
+    }
     
     
     
@@ -2196,13 +2203,170 @@ font-family: 'Roboto Condensed', sans-serif;
 /*mobile phones*/
 @media(max-width:575px){
     /*  Intro*/
+
+    .intro{
+        background-size:200%;
+    }
     .intro__inner{
         margin-top:30px;
     }
 
+    .intro__title{
+        font-size:20px;
+        margin-top:50px;
+        font-weight: bold;
+    }
 
-    /*    */
+    .intro__suptitle{
+        font-size:16px;
+        color:yellow;
+    }
+
+
+    /*   Header */
+
+    .header__logo h4{
+        font-size:20px;
+        
+    }
+
+    /*   Nav  */
+
+    .fas.fa-envelope{
+        font-size:12px;
+        padding:7px;
+    }
+
+    .fab,.fas {
+        padding:7px;
+        font-size:12px;
+    }
+/* Slider Serf */
+.slider__serfboard{
+    min-height:700px;
+}
+
+    
+    .btn__do-order a{
+        position: relative;
+        top:60px;
+        right: -90px;
+    }
+    
+    .serf__amount{
+        position: relative;
+        top:90px;
+        right:-200px;
+    }
+    
+
+    .option__items{
+        display:block;
+        top:200px;
+    }
+
+    .sliderserfboard__title{
+       position: relative;
+       left:-70px;
+        display:block;
+    }
+
+
+    .big__img{
+        width:320%;
+        position: relative;
+        left:0px;
+        top:0;
+    }
+
+    .main__img{
+        width:100px;
+        margin:0 auto;
+        position: absolute;
+        left:20px;
+        
+    }
+
+    .allboards{
+       top:470px;
+    }
+
+
+    .options{
+        margin-top:30px;
+    }
+
+    .option__titles{
+        
+        position: relative;
+        top:200px;
+        left:-60px;
+        
+    }
+
+    .option-title__item{
+        margin-top:70px;
+    }
+
+    .option-title__item.active:after{
+        margin-top:2px;
+    }
+
+
+    .fa-star{
+        margin-left:-20px;
+    }
+
+    .far{
+        color:grey;
+    }
+
+
+    .slider__serfboard-switcher{
+        top:90px;
+        right:36px;
+    }
+
+    .serfboard-amount__count{
+        position: relative;
+        right:-36px;
+    }
+
+    .views__img{
+        position: relative;
+        right:-290px;
+        bottom:190px;
+    }
+
+.big-slider__title{
+    letter-spacing: 35px;
+    right:-350px;
+    top:250px;
+}
+
+/*  About us */
+    .section--about__us {
+        margin-top:180px;
+
 }  
+}
+
+
+@media(max-width:425px){
+
+}
+
+
+
+@media(max-width:375px){
+
+}
+
+
+@media(max-width:320px){
+
+}
+
 
 
 
