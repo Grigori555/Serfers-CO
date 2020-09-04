@@ -2273,7 +2273,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
     .big__img{
-        width:320%;
+        width:300%;
         position: relative;
         left:0px;
         top:0;
@@ -2285,6 +2285,16 @@ font-family: 'Roboto Condensed', sans-serif;
         position: absolute;
         left:20px;
         
+    }
+
+    .views__img{
+        position: relative;
+        left:270px;
+        
+    }
+
+    .views__img-item{
+        cursor:pointer;
     }
 
     .allboards{
@@ -2332,11 +2342,7 @@ font-family: 'Roboto Condensed', sans-serif;
         right:-36px;
     }
 
-    .views__img{
-        position: relative;
-        right:-290px;
-        bottom:190px;
-    }
+    
 
 .big-slider__title{
     letter-spacing: 35px;
