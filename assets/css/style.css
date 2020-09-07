@@ -1950,7 +1950,10 @@ font-family: 'Roboto Condensed', sans-serif;
         width:70%;
     }
 
-   
+    .allboards:after{
+        width:130px;
+    }
+
 
 }  
 
@@ -2031,6 +2034,12 @@ font-family: 'Roboto Condensed', sans-serif;
         border:2px solid black;
     }
 
+    .allboards{
+        margin-bottom:70px;
+    }
+    .do__order-serf{
+        margin-bottom:60px;
+    }
     
 
 }  
@@ -2084,7 +2093,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
 
     .slider__serfboard{
-        min-height: 500px;
+        min-height: 600px;
     }
 
 
@@ -2120,7 +2129,7 @@ font-family: 'Roboto Condensed', sans-serif;
     .options{
         position: absolute;
         
-         margin-top:20px;
+         margin-top:120px;
     }
 
 
@@ -2174,15 +2183,15 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .do__order-serf{
         position: relative;
-        top:30px;
-        margin-bottom: 65px;
+        top:360px;
+        
         font-size:12px;
     }
     
     .allboards{
         position: relative;
         font-size:12px;
-        
+        left:190px;
        text-align: center;
     }
 
@@ -2262,7 +2271,9 @@ font-family: 'Roboto Condensed', sans-serif;
   .slider__wrapper{
       max-width:320px;
   }
-
+  .slider__serfboard{
+      min-height: 490px;
+  }
 
   .sliderserfboard__title{
       font-size:6px;
@@ -2311,7 +2322,7 @@ margin:-5px;
 
   .options{
       position: relative;
-      top:130px;
+      top:30px;
     
       height: 5px;
       
@@ -2350,13 +2361,14 @@ font-size:10px
       margin-top:-50px;
       z-index: 0;
       position: relative;
-      top:230px;
+      top:110px;
       right: 50px;
   } 
   .allboards{
       font-size:10px;
       z-index: 0;
       position: relative;
+      left:0px;
      
   }
 
@@ -2418,7 +2430,7 @@ width:65px;
      
     z-index: 1000;
     position: relative;
-    
+    top:-120px;
 
   }
 
