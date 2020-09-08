@@ -2015,7 +2015,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .allboards:after{
-        width:130px;
+        width:135px;
     }
 
 
@@ -2103,9 +2103,17 @@ font-family: 'Roboto Condensed', sans-serif;
     .views__img-item.active{
         border:2px solid black;
     }
-
+    .allserf__boards{
+        
+    }
     .allboards{
         margin-bottom:70px;
+        width:100px;
+        
+    }
+
+    .allboards:after{
+        width:41%;
     }
     .do__order-serf{
         margin-bottom:60px;
@@ -2270,7 +2278,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .allboards:after{
-        width:100px;
+        width:105px;
     }
 
 
