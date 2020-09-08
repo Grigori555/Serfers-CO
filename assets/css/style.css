@@ -171,7 +171,69 @@ transition: background 1s linear;
 
 }
 
+/*   Sidebar  */
 
+
+
+.sidebar__wrapper{
+    position: fixed;
+    top:35px;
+    
+    z-index:99;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.sidebar__serf{
+    display:none;
+    position: absolute;
+    
+    
+    font-size:15px;
+    background-color: #000000;
+    padding:15px 10px;
+    border-radius: 50%;
+   text-align: center;
+
+    cursor:pointer;
+}
+.sidebar__inner{
+   
+ 
+    background-color: #ffffff;
+    
+    width:17px;
+    height:2px;
+    font-size:0;
+   
+    }
+
+
+.sidebar__inner:before{
+    
+content:"";
+
+display:block;
+position: absolute;
+top:9px;
+background-color: #ffffff;
+width:17px;
+height:2px;
+   
+}
+
+
+.sidebar__inner:after{
+    content:"";
+    
+    display:block;
+    position: absolute;
+    bottom:9px;
+    background-color: #ffffff;
+    width:17px;
+    height:2px;
+}
 
 
 /*  intro */
@@ -476,6 +538,8 @@ background-color: #a0a0a0;
     font-size: 16px;
     color:#787878;
     line-height: 1.5;
+    
+ 
 
 }
 
@@ -1994,6 +2058,12 @@ font-family: 'Roboto Condensed', sans-serif;
     display:none;
 }
     
+
+/* Sidebar */
+
+.sidebar__serf{
+    display:block;
+}
     
 
 
@@ -2267,6 +2337,25 @@ font-family: 'Roboto Condensed', sans-serif;
         padding-left:9px;
         padding-right:9px;
     }
+
+/*  Sidebar */
+
+
+.sidebar__inner,
+.sidebar__inner:before,
+.sidebar__inner:after{
+    
+    width:13px;
+    height:1px;
+    
+    }
+
+
+
+
+
+
+
 /* Slider Serf */
   .slider__wrapper{
       max-width:320px;
@@ -2282,6 +2371,7 @@ font-family: 'Roboto Condensed', sans-serif;
     right:90px;
      width:200px;
      line-height:1.5;
+    
   }
 
   .views__img{
@@ -2483,7 +2573,29 @@ width:65px;
     
 }
 
+.big-slider__title{
+    z-index: 100;
 }
+
+}
+
+/* Sidebar  */
+.sidebar__inner,
+.sidebar__inner:before,
+.sidebar__inner:after{
+    
+    width:13px;
+    height:1px;
+    
+    }
+
+    .sidebar__inner:before{
+        top:10px;
+    }
+
+    .sidebar__inner:after{
+        bottom:10px;
+    }
 
 @media(max-width:425px){
 
