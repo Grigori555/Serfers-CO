@@ -39,10 +39,10 @@ button{
     
 }
 
-.page{
-    overflow-x:hidden;
+.intro, .section {
+    position: relative;
+    z-index: 9;
 }
-
 
 
 
@@ -240,7 +240,7 @@ height:2px;
 
 .intro{
     
-
+    
     background: url("../images/intro/intro.jpg");
     background-repeat:no-repeat;
     background-position:top;
@@ -789,6 +789,7 @@ position: absolute;
 
 
 .about__title{
+    text-align: center;
     position: relative;
    z-index: -10;
     top:-170px;
@@ -1965,7 +1966,7 @@ font-family: 'Roboto Condensed', sans-serif;
 @media(max-width:1230px){
 
     
-
+/*    1 page Intro      */
   
    
     /* Nav */
@@ -2018,6 +2019,35 @@ font-family: 'Roboto Condensed', sans-serif;
         width:135px;
     }
 
+    /*   2 page About US      */
+
+
+    .about__video{
+        margin-top:120px;
+    }
+    .about__view{
+        max-width: 360px;
+    }
+
+    .about__text{
+        padding-left:150px;
+        padding-right:70px;
+        padding-bottom:12px;
+    }
+
+
+    .about__story{
+        font-size:18px;
+    }
+
+    .about__read{
+        top:-120px;
+    }
+
+
+    .about__background{
+        min-height: 200px;
+    }
 
 }  
 
