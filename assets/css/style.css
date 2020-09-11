@@ -3,7 +3,7 @@ font-family: 'Raleway', sans-serif;
 margin:0;
 font-size:14px;
 color:#000000;
-/* overflow-x: hidden; */
+
 }
 
 
@@ -28,7 +28,6 @@ button{
 }
 
 
-
 .container{
     width:100%;
     max-width:1200px;
@@ -41,7 +40,14 @@ button{
 
 .intro, .section {
     position: relative;
+   
     z-index: 9;
+}
+
+section{
+    margin-top:180px;
+    
+    
 }
 
 
@@ -181,7 +187,7 @@ transition: background 1s linear;
     
     z-index:99;
     box-sizing: border-box;
-    width: 100%;
+   
     
 }
 
@@ -245,6 +251,7 @@ height:2px;
     background-repeat:no-repeat;
     background-position:top;
     background-size: 100% 600px;
+    padding-bottom:180px;
     
     
     
@@ -746,12 +753,6 @@ position: absolute;
 .section--about__us{
     position: relative;
     
-    margin-top:180px;
-   
-    
-    
-    
-    
 }
 
 .about__background{
@@ -915,7 +916,8 @@ transform: rotate(45deg) translate(2px, 3px);
   height:100%;
   min-height:586px;
   position: relative;
-  margin-bottom:180px;
+  
+
   
   
   
@@ -1181,7 +1183,8 @@ border-radius:10%;
 
 /* .section latest-updates ------------------------*/
 .latest-updates{
-    padding-bottom:180px;
+   
+
 }
 .title__updates{
     text-align: center;
@@ -1952,7 +1955,7 @@ font-family: 'Roboto Condensed', sans-serif;
         margin-left:-10px;
     }
     .about__view{
-        
+        cursor: pointer;
         max-width:410px;
     }
     /*   Slider__wrapper*/
@@ -2051,7 +2054,40 @@ font-family: 'Roboto Condensed', sans-serif;
 
 }  
 
+@media(max-width:1168px){
+    /*   2 page about us */
 
+    .section--about__us,.about__background{
+        min-height:330px;
+    }
+
+
+
+    .about__content{
+        min-height:230px;
+    }
+    .about__title{
+        font-size:170px;
+        text-align: center;
+        top:-155px;
+    }
+
+
+    .about__story{
+        min-height:340px;
+    }
+
+    .about__text{
+        padding:85px 45px 0px 100px;
+        min-height:300px
+    }
+
+
+    .about__video{
+        min-width: 250px;
+    }
+    
+}
 
 
 /*tablet landscape orientation*/
@@ -2148,7 +2184,71 @@ font-family: 'Roboto Condensed', sans-serif;
     .do__order-serf{
         margin-bottom:60px;
     }
+
+
+
+      /*   2 page about us */
+
+      .about__title{
+        font-size:120px;
+        top:-115px;
+      }
+
+
+      .about__story{
+          font-size:14px;
+          width:180px;
+      }
+
+
+      .about__text{
+        padding:50px 45px 0px 60px;
+        min-height:300px;
+    }
+
+    .about__read{
+        top:-130px;
+        font-size:14px;
+    }
+
+    .about__read:after{
+        max-width:80px;
+        height:2px;
+    }
+
+    .about__story{
+        min-width:250px;
+    }
+
+
+    .about-close{
+        right:25px;
+    }
+
+
+    .about-close:after, .about-close:before{
+        width:17px;
+        height:2px;
+    }
+
+    .about-close:before{
+        transform:rotate(45deg) translate(2px, 2.3px);
+    }
+
+
+
+    .about-story__title{
+        margin-left:30px;
+        font-size:15px;
+    }
+
+
+
+   
     
+
+
+   
 
 }  
 
@@ -2156,6 +2256,11 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /*tablet portreit orientation*/
 @media(max-width:770px){
+    
+
+
+
+
     /* Intro*/
     .intro__title{
         font-size:28px;
@@ -2190,6 +2295,17 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .nav__contacts{
         font-size:10px;
+    }
+
+    .fa-facebook-f{
+        padding:11px 15px;
+    }
+    .fa-instagram{
+        padding:11px 13px;
+    }
+
+    .fas.fa-envelope{
+        padding:11px 12px;
     }
  
     /*   Slider__wrapper*/
@@ -2311,18 +2427,44 @@ font-family: 'Roboto Condensed', sans-serif;
         width:105px;
     }
 
-
-    /* about us*/
-
-    .section--about__us{
-        margin-top:80px;
+    .big-slider__title{
+        letter-spacing:11px;
+        top:210px;
+        right: -290px;
     }
 
-    .big-slider__title{
-        letter-spacing:-8px;
-        top:180px;
-        right:-240px;
-      }
+
+    /* 2 page about us*/
+    
+    .section--about__us{
+        
+        margin-top:0;
+    }
+
+    .about__title{
+        font-size:70px;
+        height:100px;
+        top:-75px;
+    }
+
+
+    .about__view{
+        max-width:260px;
+    }
+
+    .about__video{
+        margin-top:90px;
+        margin-left:-30px;
+    }
+
+
+    /*  3 page section section--ourteam */
+
+
+    .section--ourteam{
+        margin-top:0;
+    }
+    
     
     
     
@@ -2504,10 +2646,10 @@ font-size:10px
       max-width:87px;
       height:1px;
   }
-  .background-serf__order{
+  /* .background-serf__order{
     points:"-50,650 0,-70 530,0" !important;
 
-  }
+  } */
 
   .slider__serfboard--fill{
     z-index:0;
@@ -2615,8 +2757,6 @@ width:65px;
     z-index: 100;
 }
 
-}
-
 /* Sidebar  */
 .sidebar__inner,
 .sidebar__inner:before,
@@ -2634,6 +2774,9 @@ width:65px;
     .sidebar__inner:after{
         bottom:10px;
     }
+
+}
+
 
 @media(max-width:425px){
 
