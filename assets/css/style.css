@@ -828,7 +828,7 @@ position: absolute;
 }
 .about__story{
 width:100%;
-min-width: 345px;
+max-width: 345px;
 height:100%;
 min-height:367px;
 font-family: 'Playfair Display', serif;
@@ -885,7 +885,7 @@ transform: rotate(45deg) translate(2px, 3px);
     font-weight: 700;
     text-decoration: none;
     position: relative;
-    top:-60px;
+    margin-top:-60px;
 
 }
 
@@ -2044,7 +2044,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about__read{
-        top:-120px;
+        margin-top:-120px;
     }
 
 
@@ -2197,7 +2197,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
       .about__story{
           font-size:14px;
-          width:180px;
+          
       }
 
 
@@ -2207,7 +2207,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about__read{
-        top:-130px;
+        margin-top:-130px;
         font-size:14px;
     }
 
@@ -2217,7 +2217,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about__story{
-        min-width:250px;
+        max-width:250px;
     }
 
 
@@ -2242,15 +2242,22 @@ font-family: 'Roboto Condensed', sans-serif;
         font-size:15px;
     }
 
-
-
-   
-    
-
-
-   
-
 }  
+
+
+@media(max-width:850px) {
+
+    /*  2 page about */
+
+    .about__video{
+        margin-top:90px;
+    }
+    .about__view{
+        max-width:300px;
+        
+        margin-left:-20px;
+    }
+}    
 
 
 
@@ -2441,6 +2448,18 @@ font-family: 'Roboto Condensed', sans-serif;
         margin-top:0;
     }
 
+    .about__background{
+        padding-bottom:40px;
+        box-shadow: 0 30px 15px -10px rgba(0, 0, 0, .5);
+        
+    }
+
+
+    .about__wrapper-background{
+        
+        background:bottom linear-gradient(#00b0ff, #2f2950);
+    }
+
     .about__title{
         font-size:70px;
         height:100px;
@@ -2455,6 +2474,28 @@ font-family: 'Roboto Condensed', sans-serif;
     .about__video{
         margin-top:90px;
         margin-left:-30px;
+    }
+
+    .about__content{
+        display:block;
+        margin-right:0;
+        max-width:500px;
+        margin:0 auto;
+        margin-top:40px;
+        background-color:#ffffff;
+        
+    }
+
+    .about__text{
+        padding:0;
+        width:100%;
+        margin-right:0;
+        
+    }
+
+    .about__item{
+        margin:0 auto;
+        width:250px;
     }
 
 
