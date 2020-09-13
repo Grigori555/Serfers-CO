@@ -828,7 +828,7 @@ position: absolute;
 }
 .about__story{
 width:100%;
-max-width: 345px;
+min-width:250px;
 height:100%;
 min-height:367px;
 font-family: 'Playfair Display', serif;
@@ -2217,9 +2217,7 @@ font-family: 'Roboto Condensed', sans-serif;
         height:2px;
     }
 
-    .about__story{
-        max-width:250px;
-    }
+   
 
 
     .about-close{
@@ -2265,10 +2263,6 @@ font-family: 'Roboto Condensed', sans-serif;
 /*tablet portreit orientation*/
 @media(max-width:770px){
     
-
-
-
-
     /* Intro*/
     .intro__title{
         font-size:28px;
@@ -2282,12 +2276,7 @@ font-family: 'Roboto Condensed', sans-serif;
         margin-top:60px;
     }
 
-    
-
-   
-
-
-    /*  Header*/
+     /*  Header*/
 
     .header__inner{
         padding-top:10px;
@@ -2447,24 +2436,32 @@ font-family: 'Roboto Condensed', sans-serif;
     .section--about__us{
         
         margin-top:0;
+        
     }
 
     .about__background{
         padding-bottom:40px;
         box-shadow: 0 30px 15px -10px rgba(0, 0, 0, .5);
+        min-height:600px;
+        height: 100%;
+      
         
     }
 
 
     .about__wrapper-background{
-        
         background:bottom linear-gradient(#00b0ff, #2f2950);
+      
+        height: 100%;
+        margin-bottom:30px;
+       
+      
     }
 
     .about__title{
-        font-size:70px;
+        font-size:90px;
         height:100px;
-        top:-75px;
+        top:-95px;
     }
 
 
@@ -2474,7 +2471,7 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .about__video{
         margin-top:90px;
-        margin-left:-30px;
+        
     }
 
     .about__content{
@@ -2488,16 +2485,59 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about__text{
-        padding:0;
+        padding-top:40px;
+        padding-bottom:40px;
         width:100%;
+        min-width:500px;
         margin-right:0;
+       min-height: 300px;
+       
+        
+        
         
     }
 
     .about__item{
         margin:0 auto;
-        width:250px;
+       
+        width:400px;
+       
+
     }
+
+    .about__story{
+        min-width:350px;
+        min-height:130px;
+         }
+
+    .about-story__title{
+        width:180px;
+        margin-left:0;
+        margin:0 auto;
+        
+    }
+
+   .about-close:before{
+    transform:rotate(45deg) translate(2px, 1.5px);
+   }
+
+  
+   .about__video{
+       max-width:500px;
+    text-align: center;
+    margin-top:-400px;
+    position: relative;
+    z-index:1000;
+   }
+
+
+   .about__view{
+       margin:0 auto;
+       max-width:300px;
+       cursor: pointer;
+   }
+
+   
 
 
     /*  3 page section section--ourteam */
