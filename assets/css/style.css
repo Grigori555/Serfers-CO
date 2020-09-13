@@ -1919,10 +1919,6 @@ margin-bottom: 33px;
    margin-right: 5px;
 }
 
-
-
-
-
 /* 
 fonts:
 font-family: 'Montserrat', sans-serif;
@@ -1930,6 +1926,11 @@ font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; 
 */
+
+/* Media------------------------------------------- */
+
+
+
 
 /* ширина контейнера*/
 /* Laptop*/
@@ -2796,6 +2797,15 @@ width:65px;
 
 .big-slider__title{
     z-index: 100;
+    letter-spacing:7px;
+    right:-220px;
+    font-size:100px;
+    top:190px;
+}
+
+
+.background-serf__order{
+    transform:translate(-165px,-120px)
 }
 
 /* Sidebar  */
@@ -2869,6 +2879,13 @@ transform:translateY(-1px);
 
     .option__items:before{
         width:55%;
+    }
+/* Slider__serf  */
+    .big-slider__title{
+        z-index: 100;
+        letter-spacing:0px;
+        right:-200px;
+        font-size:100px;
     }
 }
 
