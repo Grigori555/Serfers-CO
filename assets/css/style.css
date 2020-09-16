@@ -2437,23 +2437,28 @@ font-family: 'Roboto Condensed', sans-serif;
         
         margin-top:0;
         
+        
     }
 
     .about__background{
-        padding-bottom:40px;
-        box-shadow: 0 30px 15px -10px rgba(0, 0, 0, .5);
+        padding-bottom:80px;
+        
+        box-shadow: 0 0 20px 20px white inset;
         min-height:600px;
         height: 100%;
+        
+        
       
         
     }
 
 
     .about__wrapper-background{
-        background:bottom linear-gradient(#00b0ff, #2f2950);
-      
+        background: linear-gradient(#00b0ff, #2f2950);
+        
         height: 100%;
         margin-bottom:30px;
+        min-height:7px;
        
       
     }
@@ -2475,22 +2480,35 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about__content{
+        
         display:block;
         margin-right:0;
-        max-width:500px;
+        width:500px;
         margin:0 auto;
-        margin-top:40px;
+        margin-top:50px;
         background-color:#ffffff;
+        min-height:400px;
+        
+        background: linear-gradient(#00b0ff, #2f2950);
+        box-shadow: 0 0 20px 20px #00b0ff;
+        z-index:1000;
+        
         
     }
 
     .about__text{
+        background: #00b0ff;
+        position: relative;
+        z-index: 3;
         padding-top:40px;
         padding-bottom:40px;
         width:100%;
         min-width:500px;
         margin-right:0;
        min-height: 300px;
+       border:none;
+       
+       
        
         
         
@@ -2499,9 +2517,9 @@ font-family: 'Roboto Condensed', sans-serif;
 
     .about__item{
         margin:0 auto;
-       
+       margin-bottom:50px;
         width:400px;
-       
+        border-bottom: 3px solid #00b0ff;
 
     }
 
@@ -2524,10 +2542,18 @@ font-family: 'Roboto Condensed', sans-serif;
   
    .about__video{
        max-width:500px;
+       margin:0;
     text-align: center;
-    margin-top:-400px;
+    
     position: relative;
-    z-index:1000;
+    
+    padding-top:30px;
+    padding-bottom:25px;
+    background-image:url(../images/responsive/about/sea.jpg);
+    background-position: cover;
+    background-size:100%;
+    box-shadow: 0 0 5px 5px white inset;
+        
    }
 
 
@@ -2535,6 +2561,14 @@ font-family: 'Roboto Condensed', sans-serif;
        margin:0 auto;
        max-width:300px;
        cursor: pointer;
+   }
+
+
+   .about__read{
+       text-align:center;
+       position: relative;
+       left:37%;
+       
    }
 
    
