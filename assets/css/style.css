@@ -2506,7 +2506,7 @@ font-family: 'Roboto Condensed', sans-serif;
         z-index: 3;
         padding-top:40px;
         padding-bottom:40px;
-        box-shadow: 0 0 20px 20px #2f2950;
+        /* box-shadow: 0 0 20px 20px #2f2950; */
         margin:0 auto;
        min-height: 300px;
        border:none;
@@ -2971,23 +2971,97 @@ width:65px;
     border-bottom: 2px solid #ffffff;
 }
 
+.about__content{
+    margin-top:0;
+}
 
+.about__view{
+    max-width:400px;
+}
 
 
 
 
 }
 
+@media(max-width:500px){
+    .about__title{
+        font-size:60px;
+        top:-70px;
+    }
+
+}
+@media(max-width:490px){
+/* About us */
+.about__story{
+    min-width:250px;
+}
+.about__view{
+    max-width:350px;
+}
+
+}
 
 @media(max-width:425px){
 
-    .about-story{
+    /*About us  */
+
+    .about__title{
+        font-size:55px;
+        top:-65px;
+    }
+    .about__content{
+        margin-top:-30px;
+    }
+    .about__story{
         min-width:250px;
+        font-size:15px;
+    }
+
+    .about__background{
+        box-shadow:0 0 10px 10px white inset
+    }
+
+    .about__text{
+        box-shadow:none;    
+    }
+
+    .about__video{
+        margin-top:0;
+    }
+
+    .about__background{
+        padding-bottom:20px;
+    }
+
+    .about__view{
+        max-width: 340px;
     }
 
 }
 
+@media(max-width:400px){
+    .about__view{
+        max-width:300px;
+    }
 
+    .about__content{
+        width:85%;
+    }
+
+    .about__story{
+        min-width:200px;
+        font-size:12px;
+    }
+
+
+    .about__title{
+        font-size:40px;
+        top:-50px;
+    }
+
+    
+}
 
 @media(max-width:375px){
     /*  Slider_serf */
@@ -3023,6 +3097,33 @@ transform:translateY(-1px);
 }
 
 
+/*  About US */
+.about-story__title{
+    font-size:12px;
+}
+.about__view{
+    max-width:260px;
+}
+
+.about__content{
+    width:80%;
+}
+
+.about__story{
+    min-width:160px;
+    font-size:10px;
+}
+
+.about__text:after{
+    height:60%;
+}
+
+.about__item{
+    min-width:170px;
+}
+
+
+
 }
 
 @media(max-width:320px){
@@ -3041,7 +3142,23 @@ transform:translateY(-1px);
         right:-200px;
         font-size:100px;
     }
+
+    /* About Us */
+
+    .about__item{
+        min-width:150px;
+    }
+
+
+    .about-close:before{
+        transform:rotate(45deg) translate(2px, 1px);
+    }
+
+    .about__view{
+        max-width:250px;
+    }
 }
+
 
 
 
