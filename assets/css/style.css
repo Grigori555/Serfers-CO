@@ -2062,15 +2062,15 @@ font-family: 'Roboto Condensed', sans-serif;
         min-height:330px;
     }
 
-
+   
 
     .about__content{
         min-height:230px;
     }
     .about__title{
-        font-size:170px;
+        font-size:130px;
         text-align: center;
-        top:-155px;
+        top:-135px;
     }
 
 
