@@ -46,6 +46,7 @@ button{
 
 section{
     margin-top:180px;
+    overflow-x: hidden;
     
     
 }
@@ -2320,16 +2321,46 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     /* 3 page Our team */
+    .team__wrapper{
+        width:970px;
+        text-align: center;
+        
+    }
+
+
+
     .team-slider__inner{
       display:flex;
+      
+    
+     
+      justify-content:center;
+      padding:0;
+    
+    
+      
+      margin:0;
+     
     }
     .team-slider{
-        width:900px;
+        display:block;
+        min-width:200px;
         z-index:10;
         margin:0 auto;
+        width: 920px;
+        left:0;
+        right:0;
+        
+        
+       
+        
+        
     }
     .team-slider__item{
-        margin-left:-60px;
+        min-width:200px;
+        margin-left:0;
+
+        
     }
 
     .team-slider__item:nth-child(2n){
@@ -2338,13 +2369,11 @@ font-family: 'Roboto Condensed', sans-serif;
         z-index:0;
         
         }
-    .team-slider__item{
-        margin-left:-120px;
-    }
+    
     .team-button{
-        top:250px;
-      
         padding:30px;
+        position:absolute;
+        margin-top:350px;
 
     }
 
@@ -2375,21 +2404,25 @@ font-family: 'Roboto Condensed', sans-serif;
 
     
     .slider-back{
-        right:60px;
+       
     }
 
    
     .team-btn__left{
-       left:200px;
+      
        z-index: 5000;
        width:50px;
        height:50px;
        border-radius:50%;
+       margin-left:30%;
     }
     .team-btn__right{
-        right:290px;
+      
         width:50px;
         height:50px;
+        margin-right:0;
+        margin-left:60%;
+        margin-top:58px;
         
 
     }
