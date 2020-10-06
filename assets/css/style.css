@@ -28,6 +28,14 @@ button{
 }
 
 
+/* .team-slider{
+    background-color: red;
+}
+.team__wrapper{
+    background-color: blue;
+    padding-bottom:50px;
+} */
+
 .container{
     width:100%;
     max-width:1200px;
@@ -46,8 +54,6 @@ button{
 
 section{
     margin-top:180px;
-    overflow-x: hidden;
-    
     
 }
 
@@ -918,15 +924,8 @@ transform: rotate(45deg) translate(2px, 3px);
   min-height:586px;
   position: relative;
   
+  
 
-  
-  
-  
-  
-    
-   
-    
-   
 }
 
 
@@ -938,21 +937,25 @@ transform: rotate(45deg) translate(2px, 3px);
      font-family: 'Montserrat', sans-serif;
      font-weight:700;
      font-size:196px;
-     text-align: justify;
+     text-align: center;
      
      margin:0 auto;
      
 
      
 }
-
+.team__wrapper{
+    position: relative;
+    
+}
 
 .team-slider{
     display: flex;
     margin:0 auto;
     width:1141px;
-    position: absolute;
-    top:165px;
+    position: relative;
+    top:-70px;
+ 
     
 
 }
@@ -1111,6 +1114,8 @@ transform: rotate(45deg) translate(2px, 3px);
         cursor: pointer;
 }
 
+
+
 .team-button__line{
     position: relative;
     top:50%;
@@ -1126,14 +1131,6 @@ transform: rotate(45deg) translate(2px, 3px);
     background-color:#0022ff;
     transition: background-color 1s linear;
 }
-
-
-
-
-
-
-
-
 
 .slider-back::after,
 .slider-back::before,
@@ -2072,6 +2069,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
     .team-slider{
         text-align:center;
+        top:-10px;
        
     }
 
@@ -2148,6 +2146,7 @@ font-family: 'Roboto Condensed', sans-serif;
     .team-slider{
         min-width:900px;
         width:100%;
+        top:-10px;
     }
 
     .team-slider__inner{
@@ -2334,6 +2333,7 @@ font-family: 'Roboto Condensed', sans-serif;
     /* 3 page Our team */
   .team-slider{
       min-width:800px;
+      top:-20px;
   }
   .team-btn__right {
 
@@ -2750,7 +2750,7 @@ margin-top: 0;
 
 
     .team-slider{
-        top:130px;
+        top:-15px;
         min-width:600px;
     }
 
@@ -2830,7 +2830,7 @@ margin-top: 0;
 
 
 .team-slider{
-    top:115px;
+    top:-10px;
     min-width:560px;
 }
 
@@ -2942,13 +2942,6 @@ min-width:140px;
     height:1px;
     
     }
-
-
-
-
-
-
-
 /* Slider Serf */
   .slider__wrapper{
       max-width:320px;
@@ -3240,6 +3233,21 @@ width:65px;
 }
 
 
+/*   3 page Our team */
+
+.team-slider{
+min-width:400px;
+top:-10px;
+}
+
+
+.team-slider__item{
+    min-width:120px;
+    min-height:180px;
+
+}
+
+
 
 
 }
@@ -3259,6 +3267,90 @@ width:65px;
 .about__view{
     max-width:350px;
 }
+
+
+/* Our team  */
+
+.section--ourteam,.team__wrapper{
+    min-height:1900px;
+}
+.team__wrapper{
+    min-height:1500px;
+    
+}
+.team-slider{
+    width:90%;
+    min-width:350px;
+    margin:0 auto;
+    text-align:center;
+    top:20px;
+}
+.team__title{
+    font-size:60px;
+}
+
+.team-slider__inner{
+   display:block; 
+   margin-top:90px;
+   padding-left:0;
+   min-width:330px;
+}
+
+
+.team-slider__item{
+
+    min-height: 370px;
+    min-width: 200px;
+    height:0;
+    padding-top:30px;
+    margin-bottom:20px;
+    margin-left:0;
+    
+}
+
+.team-slider__item:nth-child(4n+1){
+    display: block;
+}
+
+.team-slider__photo{
+width:50%;
+}
+
+.account__name{
+    font-size:18px;
+}
+
+.account__id, .account__location{
+    font-size:14px;
+}
+
+.team-button{
+    margin:0;
+    text-align: center;
+   
+}
+
+.team-btn__right{
+    bottom:-90px;
+    margin-left:-20%;
+}
+
+.team-btn__left{
+   margin-top:20px;
+   margin-right:-20%;
+}
+
+.team-slider__item:nth-child(2n){
+   top:0px;
+}
+
+
+.team-slider__photo{
+    width:35%;
+    margin-bottom:30px;
+}
+
+
 
 }
 
