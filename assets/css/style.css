@@ -3478,6 +3478,35 @@ transform:translateY(-1px);
     min-width:170px;
 }
 
+/*  3 page OUR Team  */
+
+.team__title{
+    font-size:40px;
+    width:100%;
+    max-width:250px;
+}
+
+
+.team-slider__inner{
+    min-width:200px;
+}
+
+.team-slider{
+    min-width:260px;
+}
+
+.team-slider__item{
+    min-width:250px;
+    min-height:300px;
+}
+.team-slider__account{
+    min-width:240px;
+}
+
+
+
+
+
 
 
 }
