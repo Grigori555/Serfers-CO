@@ -2336,7 +2336,7 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
     .about-close:before{
-        transform:rotate(45deg) translate(2px, 2.3px);
+        transform:rotate(45deg) translate(1.5px, 2.2px);
     }
 
 
@@ -2379,6 +2379,51 @@ margin-right:20px;
 .latest-updates{
 margin-top: 0;
 }
+
+.title__updates{
+    min-width:390px;
+    text-align: center;
+}
+.updates{
+    margin:0 auto;
+    min-width:790px;
+    justify-content: space-between;
+    
+    
+}
+
+.update__item{
+    min-width:365px;
+    
+}
+
+.update__photo{
+    width:365px;
+}
+
+
+/* .update__item:nth-child(3n){
+    margin-right:30px;
+}
+
+.update__item:nth-child(2n){
+    margin-right:0px;
+} */
+
+.update__item{
+    margin-right:0px;
+}
+
+
+.update__item.hidden{
+    display:none;
+}
+
+
+
+
+
+
 }
 
 @media(max-width:850px) {
@@ -2812,9 +2857,6 @@ margin-top: 0;
     min-width:720px;
 }
 
-*{
-    border:1px solid red;
-}
 
 .update__item{
     margin:0 auto;
@@ -2834,7 +2876,6 @@ margin-top: 0;
     height: 100%;
 min-height:60px;
 }
-
 
 
 
