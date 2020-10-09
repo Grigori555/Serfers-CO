@@ -1251,7 +1251,7 @@ border-radius:10%;
     margin-right:30px;
     margin-bottom:30px;
     flex-basis: 270px;
-    background-color:blue;
+    
     
 }
 
@@ -1287,6 +1287,7 @@ border-radius:10%;
     color:#787878;
     padding:0px 25px;
     line-height: 1.5;
+    text-align: left;
    
 
 }
@@ -2380,16 +2381,43 @@ margin-right:20px;
 margin-top: 0;
 }
 
+.upd-wrapper{
+    min-width:790px;
+}
+
 .title__updates{
-    min-width:390px;
-    text-align: center;
+    min-width:790px;
+    margin-bottom:60px;
+    
+}
+
+.title-intro__updates{
+    margin:0 auto;
+    text-align:center
+}
+
+
+.update-close{
+    text-align:center;
+    
+}
+
+
+.update-close:after,.update-close:before{
+    
+    left: 50%;
+  text-align: center;
+  margin-left:15px;
+}
+
+
+.update-close:before{
+    transform:rotate(25px, 25px);
 }
 .updates{
     margin:0 auto;
     min-width:790px;
     justify-content: space-between;
-    
-    
 }
 
 .update__item{
