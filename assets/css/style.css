@@ -2453,6 +2453,42 @@ margin-top: 0;
 
 
 }
+@media(max-width:900px){
+    /*  4 page latest updates  */
+
+    
+    .update__item{
+        min-width:350px;
+        
+    }
+
+    .update__photo{
+        position: relative;
+        float: left;
+        width:80px;
+        margin-top:10px;
+        margin-left:10px;
+        margin-bottom:10px;
+       
+    }
+
+    .update__text{
+        float: right;
+        position: relative;
+        padding-left:0;
+        padding-right:0;
+        margin-right:50px;
+       
+    }
+
+    .update__text p{
+        font-size: 10px;
+        width:200px;
+        margin-left:0;
+    }
+}
+
+
 
 @media(max-width:850px) {
 
@@ -2468,6 +2504,23 @@ margin-top: 0;
     }
 }    
 
+@media(max-width:800px){
+    /* 3page Our team*/
+    .title__updates{
+        min-width:700px;
+    }
+    .team-btn__right{
+        margin-right: 60px;
+    }
+    .team-btn__left{
+        margin-left: 60px;
+    }
+    /* 4page Latest updates*/
+    .upd-wrapper,.updates{
+        margin:0 auto;
+        min-width:700px;
+    }
+}
 
 
 /*tablet portreit orientation*/
@@ -2878,84 +2931,13 @@ margin-top: 0;
   }
 
    /* 4 page   Latest updates*/
-
-   .updates{
-    display:block;
-    width:100%;
-    min-width:720px;
+   .update-close:before,.update-close:after{
+background-color: black;
+   }
+ 
 }
 
 
-.update__item{
-    margin:0 auto;
-    max-width:700px;
-    text-align:center;
-}
-
-.update__item:last-child{
-    margin:0 auto;
-}
-
-.update__img{
-  
-}
-
-.update__text{
-    height: 100%;
-min-height:60px;
-}
-
-
-
-}
-@media(max-width:900px){
-    /*  4 page latest updates  */
-
-    .updates{
-        justify-content: space-evenly;
-    }
-    .update__item{
-        min-width:350px;
-        
-    }
-
-    .update__photo{
-        position: relative;
-        float: left;
-        width:80px;
-        margin-top:10px;
-        margin-left:10px;
-        margin-bottom:10px;
-       
-    }
-
-    .update__text{
-        float: right;
-        position: relative;
-        padding-left:0;
-        padding-right:0;
-        margin-right:50px;
-       
-    }
-
-    .update__text p{
-        font-size: 10px;
-        width:200px;
-        margin-left:0;
-    }
-}
-
-
-
-@media(max-width:800px){
-    /* 3page Our team*/
-    .team-btn__right{
-        margin-right: 60px;
-    }
-    .team-btn__left{
-        margin-left: 60px;
-    }
-}
 @media(max-width:720px){
     /* 3 page our team  */
     .team-btn__right {
@@ -2966,6 +2948,30 @@ min-height:60px;
         .team-btn__left{
             margin-left:70px;
         }
+
+         /* 4 page latest updates  */
+         .title__updates{
+             min-width:200px;
+         }
+
+         .upd-wrapper{
+             min-width:575px;
+         }
+
+         .updates{
+            min-width:690px; 
+         }
+
+         .update__item{
+             min-width:320px;
+             margin-bottom:0;
+         }
+
+         .update__text{
+             
+             margin-right:0;
+             left:-20px;
+         }
 }
 
 @media(max-width:640px){
