@@ -1,10 +1,15 @@
 const ltstBtn = document.querySelector(".update__posts");
 const ltBtnCl = document.querySelector(".update-close");
+const abBtnCl = document.querySelector(".about-close");
+
 const updItems = document.querySelectorAll(".update__item");
 
 
 
-
+/* 2 page latest updates */
+abBtnCl.addEventListener("click",()=>{
+   console.log("hello");
+});
 
 
 
