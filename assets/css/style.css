@@ -2131,6 +2131,41 @@ font-family: 'Roboto Condensed', sans-serif;
     }
 
 
+    /* 5 page  Social networks */
+    .social-network{
+        min-height: 1750px;
+    }
+
+    .social__network{
+        flex-direction: column;
+    }
+
+    .social__item{
+        margin:0 auto;
+    }
+    .social__network{
+        width:100%;
+    }
+
+    .insta__imgs{
+        margin:0 auto;
+    }
+
+    .nav__network{
+        position: static;
+    }
+
+    .network__background{
+        width:300px;
+        right: 0;
+        margin:20px auto;
+    }
+
+    .nav__network-links{
+        display:flex;
+    }
+
+
 
 }  
 @media(max-width:1168px){
