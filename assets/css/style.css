@@ -3060,6 +3060,46 @@ background-color: black;
          .update__text p{
             max-width:85px;
          }
+        
+         /*  5 and 6 pages    */
+
+         .social-network{
+            margin-top:30px;
+            
+         }
+
+         .instaImg{
+            grid-template-columns:210px 210px;
+            grid-template-rows:210px 210px;
+            bottom:25px;
+         }
+
+         
+         .insta__imgs{
+             max-width:420px;
+         }
+
+         .insta__photo,.insta-img__item{
+             max-width:210px;
+             max-height: 210px;
+         }
+
+         .social-network__title h1{
+             width:420px;
+             font-size:70px;
+             letter-spacing: -1.3px;
+         }
+
+
+         /* Footer */
+
+         .contacts{
+           
+           
+
+         }
+
+         
 }
 
 @media(max-width:640px){
@@ -3076,8 +3116,18 @@ background-color: black;
         .updates{
             min-width:600px;
          }
+
+/* Social networks 5 and 6 pages      */
+
+.insta__follow{
+  margin:0 auto;
 }
 
+
+}
+*{
+    border:1px solid black;
+}
 @media(max-width:600px){
  /*  3 page section section--ourteam */
 
