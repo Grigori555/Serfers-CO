@@ -2237,8 +2237,22 @@ font-family: 'Roboto Condensed', sans-serif;
         min-height:200px;
 
     
+
+    
 }
 
+/*  Social networks */
+
+.social__item.fab{
+    margin-top:83px;
+    margin-bottom:83px;
+}
+
+.feedback{
+    margin:0 auto;
+    margin-top:50px;
+    width:300px;
+}
 }
 /*tablet landscape orientation*/
 @media(max-width:990px){
