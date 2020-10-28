@@ -1343,6 +1343,7 @@ justify-content: space-around;
 width:95%;
 
 
+
 }
 
 .social-network__title h1{
@@ -1798,14 +1799,18 @@ margin-bottom: 33px;
 /* footer class="contacts" ---------*/
 
 .contacts{
+    
     display:flex;
     justify-content: space-between;
     color:#ffffff;
     background:#000000;
+  
+   z-index: 1000;
     position: relative;
-    margin-top:-230px;
-    height: 100%;
+    z-index: 1000;
+    width: 100%;
     min-height:250px;
+    margin-top:-228px;
 
     
 }
@@ -3015,6 +3020,11 @@ margin-top: 0;
    .update-close:before,.update-close:after{
 background-color: black;
    }
+
+   /*  5 page social networks */
+   .insta__follow{
+       z-index: 1;
+   }
  
 }
 
@@ -3065,6 +3075,9 @@ background-color: black;
 
          .social-network{
             margin-top:30px;
+            min-height: 1500px;
+       
+
             
          }
 
@@ -3093,10 +3106,10 @@ background-color: black;
 
          /* Footer */
 
-         .contacts{
-           
-           
+        
 
+         .friend__img:hover{
+             border:1px solid red;
          }
 
          
@@ -3125,9 +3138,7 @@ background-color: black;
 
 
 }
-*{
-    border:1px solid black;
-}
+
 @media(max-width:600px){
  /*  3 page section section--ourteam */
 
