@@ -3615,19 +3615,90 @@ min-width: 100px;
 /*  5 and 6 pages   */
 
 
-.fab{
-    font-size:20px;
+.fa-instagram-square{
+    font-size:22px;
+    margin-top:2px;
+}
+
+
+.contacts{
+    margin-top:-200px;
+}
+
+
+.network__text{
+    font-size:10px;
+}
+
+.enter__email{
+    font-size:13px;
+}
+
+
+}
+
+@media(max-width:540px){
+    /* 5 and 6 pages */
+
+    .social__item{
+        min-width: 450px;
+    }
+
+    .instaImg{
+        grid-template-columns:310px;
+        grid-template-rows:310px;
+      
+    }
+    .insta-img__item{
+        
+        max-width:310px;
+        max-height: 310px;
+    }
+
+    
+
+    .insta__imgs{
+        max-width:310px;
+    }
+
+    .insta__photo{
+        
+        
+        max-width:310px;
+        max-height:310px;
+    }
+
+    .social-network__title, .social-network__title h1{
+        min-width:310px;
+        
+    }
+
+    .social-network__title h1{
+        font-size:48px;
+        margin-left:-3px;
+        letter-spacing:1.5px;
+    }
+
+    .instaImg{
+        bottom:15px;
+    }
+
 }
 
 
 
-}
 
 @media(max-width:500px){
+
+    /* About us */
     .about__title{
         font-size:60px;
         top:-70px;
     }
+
+    /* 5 and 6 pages*/
+
+    
 
 }
 @media(max-width:490px){
