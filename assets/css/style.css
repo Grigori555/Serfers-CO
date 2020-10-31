@@ -3683,6 +3683,30 @@ min-width: 100px;
         bottom:15px;
     }
 
+
+    .nav__network{
+       
+        position: relative;
+        bottom:0;
+        margin-bottom:-65px;
+    }
+
+    .social-network{
+
+    }
+
+
+    .contacts{
+        margin-top:0;
+        position: relative;
+
+    }
+
+    .social__item.fab{
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+
 }
 
 
