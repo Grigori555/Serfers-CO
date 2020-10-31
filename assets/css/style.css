@@ -3635,6 +3635,21 @@ min-width: 100px;
 }
 
 
+/*   Facebook */
+.fb-page__btns{
+ 
+   top:95px;
+  
+}
+
+.likePage, .sharePage{
+    padding:0;
+    padding-right:10px;
+    
+}
+
+
+
 }
 
 @media(max-width:540px){
@@ -3691,9 +3706,7 @@ min-width: 100px;
         margin-bottom:-65px;
     }
 
-    .social-network{
-
-    }
+    
 
 
     .contacts{
@@ -3705,6 +3718,26 @@ min-width: 100px;
     .social__item.fab{
         margin-bottom:20px;
         margin-top:20px;
+    }
+
+/* 5 page facebook  */
+    .fb__page{
+        max-width: 210px;
+        margin:0 auto;
+    }
+
+    .fb__item{
+        max-width: 280px;
+        margin:0 auto;
+    }
+
+
+    .facebook{
+        min-width: 280px;
+    }
+
+    .fb__inner{
+   
     }
 
 }
