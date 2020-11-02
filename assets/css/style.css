@@ -4030,6 +4030,17 @@ width:50%;
 
 }
 
+
+@media(max-width:450px){
+    /*  Serfboard */
+    .slider__serfboard-switcher{
+        width:0px;
+        border:1px solid red;
+        
+    }
+
+
+}
 @media(max-width:425px){
 
     /*About us  */
@@ -4088,8 +4099,53 @@ width:50%;
         top:-50px;
     }
 
+
+    /*  6 page  footer */
+    .contacts{
+        text-align: center;
+    }
+
+   
+    .feedback__input,.feedback__label{
+        width:200px;
+        margin:0 auto;
+    }
+    .feedback__email,#enter__email{
+        max-width:150px;
+        margin:0 auto;
+    }
+
+    .feedback__label{
+        text-align: center;
+        margin-bottom:14px;
+       
+    }
+
+    .contacts__left{
+        position: absolute;
+        top:150px;
+        margin:0 auto;
+        margin-top:40px;
+       min-width:70px;
+       
+    }
+
+    .feedback__submit{
+        margin-right: 10px;;
+    }
+
     
 }
+
+
+
+
+ 
+
+
+ 
+     
+ 
 
 @media(max-width:375px){
     /*  Slider_serf */
