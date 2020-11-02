@@ -4033,10 +4033,25 @@ width:50%;
 
 @media(max-width:450px){
     /*  Serfboard */
+
+    .slider__wrapper{
+        position:relative;
+    }
     .slider__serfboard-switcher{
+        margin-top:65px;
         width:0px;
-        border:1px solid red;
         
+        left:86%;
+        
+    }
+
+    .slider__serfboard-arrows{
+        margin-left:-20px;
+    }
+
+    .serfboard-amount__count{
+        position: relative;
+        right: 0;
     }
 
 
@@ -4137,16 +4152,6 @@ width:50%;
     
 }
 
-
-
-
- 
-
-
- 
-     
- 
-
 @media(max-width:375px){
     /*  Slider_serf */
 
@@ -4160,7 +4165,7 @@ width:50%;
 
     .slider__serfboard-arrows{
         height: 25px;
-        right: 20px;
+      
         top:10px;
     }
 
@@ -4178,11 +4183,10 @@ transform:translateY(-1px);
 
 .slider__serfboard-switcher{
     margin-top:70px;
-    right:16px;
+    
 }
-.serfboard-amount__count{
-    right: 25px;
-}
+
+
 
 
 /*  About US */
