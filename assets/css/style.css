@@ -3208,11 +3208,7 @@ min-width:140px;
 
 }
 
-   
-
-    
-    
-    /*mobile phones*/
+   /*mobile phones*/
 @media(max-width:575px){
     /*  Intro*/
 
@@ -3722,23 +3718,136 @@ min-width: 100px;
 
 /* 5 page facebook  */
     .fb__page{
-        max-width: 210px;
-        margin:0 auto;
+      
+       
+      
+        min-width: 220px;
+        max-width: 240px;
+        min-height:100px;
+        width:100%;
+       margin:0 auto;
+        
+        
     }
 
     .fb__item{
         max-width: 280px;
         margin:0 auto;
+   
+        min-height: 150px;
     }
 
 
     .facebook{
         min-width: 280px;
+        padding:0;
+        padding-top:20px;
+        text-align: center;
     }
 
-    .fb__inner{
-   
+    /* .fb__inner{
+        min-width:280px;
+       
+    } */
+
+
+    .fb__page::after{
+       
+        height:45%;
     }
+
+    .fb-page__btns{
+       
+        max-width:150px;
+       
+        top:60px;
+        font-size:9px;
+        
+
+    }
+
+    .--likepage{
+        padding:0px;
+    }
+
+
+    .fb__likes{
+        
+        min-width: 50px;
+        max-width: 180px;
+        margin:0 auto;
+       
+    }
+/*  for JS */
+   .user__link:nth-child(n+3):nth-child(-n+9){
+ 
+        display:none;
+    }
+
+    .friends__imgs{
+        justify-content: center;
+        width:140px;
+    }
+
+    .friend__img{
+        border-radius: 50%;
+    }
+
+    
+
+.fb__likes-inner{
+    width:180px;
+}
+
+.serfers-fb__sign{
+    font-size:12px;
+}
+
+
+.fb__parent{
+    margin:0 auto;
+    
+}
+
+
+.fb__inner{
+    min-width: 270px;
+    width:100%;
+    max-height:150px;
+    margin:0 auto;
+}
+
+
+.fb__logo{
+margin-top:0;
+}
+
+
+.serfers-fb__logo{
+    font-size:8px;
+    padding: 10px 5px;
+}
+
+
+.serfers-fb__sign{
+    left:55px;
+}
+
+.fb-page__btns{
+    max-width:225px;
+}
+
+.likePage, .sharePage{
+    padding-right:5px;
+}
+
+.likePage{
+    padding-left:5px;
+}
+
+.--sharepage{
+    
+}
 
 }
 
