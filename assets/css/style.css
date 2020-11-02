@@ -3651,36 +3651,42 @@ min-width: 100px;
 @media(max-width:540px){
     /* 5 and 6 pages */
 
-    .social__item{
-        min-width: 450px;
+    .social__item.insta{
+        min-width: 280px;
+        max-width: 280px;
     }
 
+    .insta__imgs,.social-network__title,.social-network__title h1{
+        max-width:280px;
+    }
+
+
+ 
+
     .instaImg{
-        grid-template-columns:310px;
-        grid-template-rows:310px;
+        grid-template-columns:280px;
+        grid-template-rows:280px;
       
     }
     .insta-img__item{
         
-        max-width:310px;
-        max-height: 310px;
+        max-width:280px;
+        max-height: 280px;
     }
 
     
 
-    .insta__imgs{
-        max-width:310px;
-    }
+    
 
     .insta__photo{
         
         
-        max-width:310px;
-        max-height:310px;
+        max-width:280px;
+        max-height:280px;
     }
 
     .social-network__title, .social-network__title h1{
-        min-width:310px;
+        min-width:280px;
         
     }
 
@@ -3714,6 +3720,20 @@ min-width: 100px;
     .social__item.fab{
         margin-bottom:20px;
         margin-top:20px;
+    }
+
+    .social-network__title h1{
+        letter-spacing: 0.2px;
+        font-size:45px;
+    }
+
+    .follow__font{
+        font-size:20px;
+        margin-left:-20px;
+    }
+
+    .insta_contacts{
+        margin-left:10px;
     }
 
 /* 5 page facebook  */
@@ -3850,6 +3870,7 @@ margin-top:0;
 }
 
 }
+
 
 
 
